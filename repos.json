@@ -1,9 +1,9 @@
 [  {
     "kernelSource": {
       "name": "miku-KernelSU",
-      "repo": "https://github.com/PhamtomK12/kernel_xiaomi_odin",
-      "branch": "TDA",
-      "device": "odin"
+      "repo": "https://github.com/ifoodplayer/android_kernel_samsung_a11q",
+      "branch": "android-10.0",
+      "device": "sdm450"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -13,8 +13,8 @@
         "name": "gas"
       },
       {
-        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-        "branch": "11",
+        "repo": "https://github.com/physwizz/toolchain_cross-compile",
+        "branch": "main",
         "name": "clang"
       }
     ],
